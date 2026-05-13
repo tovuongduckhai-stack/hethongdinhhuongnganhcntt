@@ -15,7 +15,7 @@ Hệ thống cho phép người dùng:
 ## 3. Yêu cầu hệ thống
 ### 3.1. Yêu cầu chức năng
 Đối với sinh viên: 
-- Xem danh sách các thẻ nghề nghiệp (Card layout).
+- Xem danh sách các thẻ nghề nghiệp (Card layout)..
 - Hiển thị chi tiết Roadmap học tập và mức lương tham khảo
 - Tìm kiếm nghề nghiệp trong ngành theo từ khóa nhanh.
 Đối với Quản trị viên:
