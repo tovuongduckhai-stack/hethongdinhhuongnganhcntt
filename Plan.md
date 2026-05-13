@@ -53,6 +53,7 @@ Hệ thống cho phép người dùng:
 - Tổng kết và nộp bài đúng hạn.
 
 ## 6. Công nghệ sử dụng
-- **Ngôn ngữ:** Python
-- **Database:** JSON / SQLite
-- **Công cụ:** GitHub, Visual Studio Code, GitHub Copilot (AI), Figma
+- **Ngôn ngữ lập trình: Python (Ngôn ngữ chính để xử lý logic định hướng).
+- **Backend Framework: FastAPI (Dùng để xây dựng các API truy xuất dữ liệu nghề nghiệp và lộ trình học tập).
+- **Frontend: HTML5, CSS3, JavaScript (Dùng để thiết kế giao diện người dùng trực quan).
+- **Database: JSON hoặc SQLite (Lưu trữ danh mục nghề nghiệp, kỹ năng và Roadmap).
