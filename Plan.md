@@ -57,3 +57,8 @@ Hệ thống cho phép người dùng:
 - Backend Framework: FastAPI (Dùng để xây dựng các API truy xuất dữ liệu nghề nghiệp và lộ trình học tập).
 - Frontend: HTML5, CSS3, JavaScript (Dùng để thiết kế giao diện người dùng trực quan).
 - Database: JSON hoặc SQLite (Lưu trữ danh mục nghề nghiệp, kỹ năng và Roadmap).
+## 7. Công cụ hỗ trợ:
+- Visual Studio Code: Môi trường lập trình chính.
+- GitHub Copilot: AI hỗ trợ tối ưu hóa mã nguồn và xử lý lỗi.
+- Postman: Công cụ để kiểm thử các cổng API của FastAPI.
+- GitHub: Quản lý phiên bản và lưu trữ mã nguồn dự án.
