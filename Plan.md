@@ -7,28 +7,32 @@
 
 ## 2. Mô tả hệ thống
 Hệ thống cho phép người dùng:
-- Tra cứu danh mục các vị trí việc làm trong ngành IT (Web, Mobile, AI, Data...).
-- Xem chi tiết yêu cầu kỹ năng, mức lương và mô tả công việc.
-- Theo dõi lộ trình học tập (Roadmap) trực quan cho từng chuyên ngành.
-- Quản lý và cập nhật dữ liệu thông qua giao diện Admin.
+- Tra cứu danh mục các vị trí việc làm trong ngành IT (Lập trinh viên, Kiểm thử phần mềm ).
+- Xem chi tiết yêu cầu về kỹ năng, mô tả công việc và mức lương tham khảo cho từng vị trí trong ngành.
+- Cung cấp lộ trình học tập để sinh viên tự tin phát triển bản thân
+- Tích hợp công cụ quản trị dữ liệu tập trung, cho phép cập nhật thông tin nghề nghiệp nhanh chóng
 
 ## 3. Yêu cầu hệ thống
 ### 3.1. Yêu cầu chức năng
-- Tra cứu nghề nghiệp theo từ khóa.
-- Hiển thị lộ trình học tập (Roadmap) chi tiết.
-- Quản lý danh mục ngành nghề (Thêm/Sửa/Xóa).
-- Gợi ý hướng đi phù hợp theo năng lực cá nhân.
-
+Đối với sinh viên: 
+- Xem danh sách các thẻ nghề nghiệp (Card layout).
+- Hiển thị chi tiết Roadmap học tập và mức lương tham khảo
+- Tìm kiếm nghề nghiệp trong ngành theo từ khóa nhanh.
+Đối với Quản trị viên:
+- Thêm mới, sửa thông tin hoặc xóa các lộ trình cũ (CRUD qua API).
+- Cập nhật dữ liệu trực tiếp vào hệ thống thông qua giao diện Swagger UI.
 ### 3.2. Yêu cầu phi chức năng
-- Giao diện trực quan, dễ sử dụng.
-- Phản hồi dữ liệu nhanh chóng.
-- Hệ thống hoạt động ổn định trên môi trường Web.
+- Giao diện tối giản, sạch sẽ, chia khối rõ ràng theo phong cách chuyên nghiệp.
+- Phản hồi dữ liệu từ file JSON ngay lập tức nhờ hiệu năng cao của Python FastAPI.
+- Hoạt động tốt trên môi trường trình duyệt Web hiện đại.
 
-## 4. User Story
-- Với vai trò là **sinh viên**, tôi muốn tra cứu nghề nghiệp để định hướng tương lai.
-- Với vai trò là **sinh viên**, tôi muốn xem Roadmap để biết các kiến thức cần học.
-- Với vai trò là **quản trị viên**, tôi muốn cập nhật dữ liệu để thông tin luôn chính xác.
-
+## 4. Thiết kế giao diện (Mô tả Layout)
+Giao diện User:
+- Sử dụng bố cục Boxed Layout (khung hộp).
+- Thông tin được trình bày trong các Cards đối xứng để sinh viên dễ so sánh giữa các nghề.
+Giao diện Admin:
+- Sử dụng giao diện chuẩn Swagger UI.
+- Hiển thị danh sách các phương thức (GET, POST, PUT, DELETE) một cách khoa học để quản lý file dữ liệu.
 ## 5. Kế hoạch thực hiện
 
 ### Tuần 1: Phân tích & Thiết kế
