@@ -1,5 +1,5 @@
 # KẾ HOẠCH THỰC HIỆN ĐỀ TÀI
-## XÂY DỰNG HỆ THỐNG ĐỊNH HƯỚNG NGHỀ NGHIỆP IT
+## XÂY DỰNG HỆ THỐNG ĐỊNH HƯỚNG NGHỀ NGHIỆP CHO SINH VIÊN NGÀNH IT
 
 ## 1. Thông tin chung
 - **Sinh viên thực hiện:** Tô Vương Đắc Khải
