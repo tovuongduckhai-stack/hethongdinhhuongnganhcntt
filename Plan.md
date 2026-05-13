@@ -30,6 +30,7 @@ Hệ thống cho phép người dùng:
 Giao diện User:
 - Sử dụng bố cục Boxed Layout (khung hộp).
 - Thông tin được trình bày trong các Cards đối xứng để sinh viên dễ so sánh giữa các nghề.
+  
 Giao diện Admin:
 - Sử dụng giao diện chuẩn Swagger UI.
 - Hiển thị danh sách các phương thức (GET, POST, PUT, DELETE) một cách khoa học để quản lý file dữ liệu.
