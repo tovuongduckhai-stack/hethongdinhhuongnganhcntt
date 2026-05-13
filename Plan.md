@@ -31,23 +31,23 @@ Hệ thống cho phép người dùng:
 
 ## 5. Kế hoạch thực hiện
 
-### Giai đoạn 1: Phân tích & Thiết kế
+### Tuần 1: Phân tích & Thiết kế
 - Khởi tạo repository trên GitHub để quản lý dự án.
 - Phân tích yêu cầu và đặc tả các chức năng hệ thống.
 - Thiết kế cơ sở dữ liệu (JSON/SQLite) và giao diện UI/UX sơ bộ.
 
-### Giai đoạn 2: Phát triển hệ thống (Có hỗ trợ từ AI)
+### Tuần 2: Phát triển hệ thống (Có hỗ trợ từ AI)
 - Thiết lập môi trường lập trình Python (Streamlit/Flask).
 - Xây dựng Backend xử lý dữ liệu (Sử dụng GitHub Copilot hỗ trợ viết code).
 - Kết nối dữ liệu và xây dựng giao diện hiển thị danh mục, Roadmap.
 - Hoàn thiện các chức năng quản lý cốt lõi.
 
-### Giai đoạn 3: Kiểm thử & Hoàn thiện
+### Tuần 3: Kiểm thử & Hoàn thiện
 - Kiểm thử toàn bộ chức năng và sửa lỗi (Fix bug).
 - Tối ưu hóa giao diện và trải nghiệm người dùng.
 - Sử dụng AI để kiểm tra và tối ưu hóa đoạn mã.
 
-### Giai đoạn 4: Báo cáo & Demo
+### Tuần 4: Báo cáo & Demo
 - Hoàn thiện báo cáo dự án chi tiết.
 - Chuẩn bị slide thuyết trình và quay video demo sản phẩm.
 - Tổng kết và nộp bài đúng hạn.
