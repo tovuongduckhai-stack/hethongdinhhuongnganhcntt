@@ -1,49 +1,51 @@
-Tuần 1: Khởi động dự án và Thiết kế tổng quan
-Thiết lập môi trường: Khởi tạo kho lưu trữ trên GitHub, thiết lập cấu trúc thư mục dự án (/src, /data, /docs). Chọn framework Python (ví dụ: Streamlit để làm web nhanh, hoặc Flask/Django nếu muốn làm web truyền thống).
-
-Xác định yêu cầu: Liệt kê các tính năng chính (Tra cứu nghề nghiệp, xem lộ trình học tập, tìm kiếm vị trí theo từ khóa).
-
-Thiết kế luồng dữ liệu: Xác định các trường thông tin cần lưu trữ cho mỗi nghề nghiệp (Tên vị trí, Mô tả, Kỹ năng cần thiết, Mức lương trung bình, Lộ trình thăng tiến).
-
-Hoàn thiện tài liệu: Viết file README.md mô tả dự án và bảng kế hoạch chi tiết.
-
-Tuần 2: Thu thập, Phân loại và Chuẩn hóa dữ liệu
-Thu thập thông tin: Tìm hiểu dữ liệu từ các nguồn uy tín (TopIT, VietnamWorks, các blog công nghệ) về các vị trí như: Mobile Dev, Web Dev, AI Engineer, Data Analyst, Security, v.v.
-
-Xây dựng bộ dữ liệu: Tổng hợp thông tin vào các file lưu trữ (ví dụ: jobs.json hoặc careers.csv).
-
-Phân tích Roadmap: Với mỗi nghề nghiệp, xác định rõ các cột mốc: Nhập môn -> Cơ bản -> Nâng cao.
-
-Viết kịch bản nội dung: Soạn thảo nội dung tư vấn ngắn gọn, dễ hiểu để hiển thị lên trang web cho sinh viên.
-
-Tuần 3: Phát triển ứng dụng (Coding & UI)
-Xây dựng Backend: Viết các module Python để đọc/ghi dữ liệu từ file lưu trữ. Xây dựng logic tìm kiếm và lọc (filter) vị trí công việc theo nhóm ngành.
-
-Thiết kế giao diện (UI):
-
-Trang chủ: Giới thiệu tổng quan về các nhóm ngành IT.
-
-Trang danh sách: Hiển thị các thẻ (Cards) nghề nghiệp.
-
-Trang chi tiết: Hiển thị đầy đủ thông tin, kỹ năng và lộ trình học của từng vị trí.
-
-Kết nối dữ liệu: Đưa toàn bộ nội dung đã chuẩn bị ở Tuần 2 lên giao diện web.
-
-Tối ưu hóa: Chỉnh sửa giao diện sao cho trực quan, thân thiện với người dùng là sinh viên.
-
-Tuần 4: Kiểm thử, Tối ưu và Hoàn thiện báo cáo
-Kiểm thử (Testing): Chạy thử hệ thống để phát hiện lỗi hiển thị hoặc lỗi logic khi tìm kiếm. Kiểm tra độ phản hồi của trang web trên các trình duyệt khác nhau.
-
-Chỉnh sửa & Cập nhật: Dựa trên kết quả test để tinh chỉnh lại code và nội dung sao cho chuẩn xác nhất.
-
-Viết báo cáo dự án:
-
-Giới thiệu lý do chọn đề tài.
-
-Mô tả các công nghệ Python đã sử dụng.
-
-Hướng dẫn cài đặt và sử dụng hệ thống.
-
-Tổng kết những gì đã làm được và hướng phát triển (ví dụ: sau này thêm tính năng làm bài test định hướng).
-
-Đóng gói: Đẩy toàn bộ code cuối cùng lên GitHub và chuẩn bị bản demo.
+KẾ HOẠCH THỰC HIỆN ĐỀ TÀI
+XÂY DỰNG HỆ THỐNG ĐỊNH HƯỚNG NGHỀ NGHIỆP IT
+1. Thông tin chung
+Sinh viên thực hiện: Khải
+Chuyên ngành: Công nghệ thông tin (IT)
+Đề tài: Xây dựng hệ thống định hướng nghề nghiệp ngành Công nghệ thông tin
+2. Mô tả hệ thống
+Hệ thống hỗ trợ sinh viên:
+Tra cứu danh mục các vị trí việc làm trong ngành IT (Web, Mobile, AI, Data...).
+Xem chi tiết yêu cầu kỹ năng, mức lương và mô tả công việc thực tế.
+Theo dõi lộ trình học tập (Roadmap) trực quan cho từng chuyên ngành.
+Cập nhật và quản lý dữ liệu ngành nghề thông qua giao diện Admin.
+3. Yêu cầu hệ thống
+3.1. Yêu cầu chức năng
+Đăng ký và đăng nhập tài khoản người dùng.
+Tìm kiếm nghề nghiệp theo từ khóa hoặc bộ lọc kỹ năng.
+Hiển thị lộ trình học tập từ cơ bản đến nâng cao.
+Quản lý dữ liệu nghề nghiệp (Thêm/Sửa/Xóa).
+Gợi ý hướng đi phù hợp dựa trên năng lực cá nhân.
+3.2. Yêu cầu phi chức năng
+Giao diện đơn giản, dễ thao tác.
+Hệ thống phản hồi nhanh, xử lý dữ liệu mượt mà.
+Hoạt động ổn định trên các trình duyệt web phổ biến.
+4. User Story
+Với vai trò là sinh viên, tôi muốn tra cứu nghề nghiệp để biết thị trường đang cần kỹ năng gì.
+Với vai trò là sinh viên, tôi muốn xem Roadmap để biết thứ tự các môn cần học.
+Với vai trò là quản trị viên, tôi muốn cập nhật thông tin nghề nghiệp để dữ liệu không bị lạc hậu.
+5. Kế hoạch thực hiện
+Giai đoạn 1: Phân tích & Thiết kế
+Khởi tạo repository trên GitHub để quản lý mã nguồn.
+Phân tích chi tiết các chức năng và xác định đối tượng sử dụng.
+Thiết kế sơ đồ cơ sở dữ liệu (ERD) cho các bảng nghề nghiệp và kỹ năng.
+Thiết kế giao diện (UI) cơ bản cho các trang chức năng.
+Giai đoạn 2: Phát triển hệ thống
+Thiết lập môi trường lập trình Python và các thư viện cần thiết.
+Xây dựng giao diện Frontend cho người dùng.
+Lập trình logic Backend xử lý dữ liệu (Sử dụng GitHub Copilot hỗ trợ).
+Kết nối cơ sở dữ liệu (JSON/SQLite) với hệ thống web.
+Hoàn thiện các chức năng cốt lõi của ứng dụng.
+Giai đoạn 3: Kiểm thử & Hoàn thiện
+Kiểm thử các chức năng chính để đảm bảo không có lỗi logic.
+Tối ưu hóa hiệu năng và sửa lỗi hiển thị (Fix bug).
+Chỉnh sửa giao diện theo hướng chuyên nghiệp và thân thiện hơn.
+Giai đoạn 4: Báo cáo & Demo
+Viết báo cáo thực tập chi tiết (có ghi chú các phần AI hỗ trợ).
+Chuẩn bị slide thuyết trình và quay video giới thiệu sản phẩm.
+Thực hiện Demo sản phẩm cuối kỳ.
+6. Công nghệ sử dụng
+Ngôn ngữ: Python
+Database: JSON / SQLite
+Công cụ: GitHub, Visual Studio Code, GitHub Copilot (AI hỗ trợ)
