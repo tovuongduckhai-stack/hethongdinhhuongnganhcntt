@@ -36,26 +36,28 @@ Giao diện Admin:
 - Hiển thị danh sách các phương thức (GET, POST, PUT, DELETE) một cách khoa học để quản lý file dữ liệu.
 ## 5. Kế hoạch thực hiện
 
-### Tuần 1: Phân tích & Thiết kế
-- Khởi tạo repository trên GitHub để quản lý dự án.
-- Phân tích yêu cầu và đặc tả các chức năng hệ thống.
-- Thiết kế cơ sở dữ liệu (JSON/SQLite) và giao diện UI/UX sơ bộ.
+### Tuần 1: Phân tích & Thiết kế hệ thống (Từ 11/05 đến 15/05)
+- Khảo sát yêu cầu: Chốt đề tài TechRoute, xác định các đối tượng người dùng (Sinh viên, Admin).
+- Phân tích logic: Đặc tả các chức năng chính như tra cứu Roadmap, quản lý dữ liệu qua API.
+- Thiết kế kỹ thuật: Hoàn thiện bộ 3 sơ đồ (Use Case, Sequence, Class) để định hình luồng dữ liệu.
+  
+### Tuần 2: Phát triển giao diện và CSDL (Từ 16/05 đến 20/05)
+- Thiết kế Database: Xây dựng cấu trúc file JSON hoặc SQLite để lưu trữ thông tin nghề nghiệp và các bước trong Roadmap.
+- Xây dựng Frontend (Giao diện người dùng): * Thiết kế trang chủ chuyên nghiệp theo phong cách TechRoute.
+- Làm giao diện các "Card" nghề nghiệp và trang hiển thị lộ trình chi tiết.
+- Xây dựng giao diện Admin: Tích hợp Swagger UI để kiểm thử và quản lý các phương thức GET/POST/PUT/DELETE.
+  
+### Tuần 3: Lập trình Backend và Kết nối hệ thống (Từ 21/05 đến 25/05)
+- Phát triển API với FastAPI: Viết các hàm xử lý logic để trả về dữ liệu Roadmap khi người dùng yêu cầu.
+- Xử lý Logic định hướng: Code chức năng tìm kiếm và lọc nghề nghiệp theo từ khóa.
+- Kết nối Front-Back: Sử dụng JavaScript (Fetch API) để lấy dữ liệu từ Backend và hiển thị lên giao diện đã thiết kế.
+- Hỗ trợ từ AI: Sử dụng GitHub Copilot để tối ưu hóa các đoạn code xử lý dữ liệu phức tạp.
 
-### Tuần 2: Phát triển hệ thống (Có hỗ trợ từ AI)
-- Thiết lập môi trường lập trình Python (Streamlit/Flask).
-- Xây dựng Backend xử lý dữ liệu (Sử dụng GitHub Copilot hỗ trợ viết code).
-- Kết nối dữ liệu và xây dựng giao diện hiển thị danh mục, Roadmap.
-- Hoàn thiện các chức năng quản lý cốt lõi.
-
-### Tuần 3: Kiểm thử & Hoàn thiện
-- Kiểm thử toàn bộ chức năng và sửa lỗi (Fix bug).
-- Tối ưu hóa giao diện và trải nghiệm người dùng.
-- Sử dụng AI để kiểm tra và tối ưu hóa đoạn mã.
-
-### Tuần 4: Báo cáo & Demo
-- Hoàn thiện báo cáo dự án chi tiết.
-- Chuẩn bị slide thuyết trình và quay video demo sản phẩm.
-- Tổng kết và nộp bài đúng hạn.
+### Tuần 4: Kiểm thử, Viết báo cáo và Hoàn thiện (Từ 26/05 đến 30/05)
+- Kiểm thử (Testing): Chạy thử hệ thống, sửa các lỗi về đường dẫn dữ liệu hoặc giao diện bị lỗi trên trình duyệt.
+- Viết báo cáo thực tập: Soạn thảo file Word chi tiết (mô tả quá trình làm, các kỹ năng đạt được, hướng dẫn sử dụng hệ thống).
+- Chuẩn bị thuyết trình: Làm Slide PowerPoint tóm tắt các điểm nổi bật của dự án TechRoute.
+- Nộp bài: Đóng gói toàn bộ mã nguồn, báo cáo để nộp đúng hạn ngày 30/05.
 
 ## 6. Công nghệ sử dụng
 - Ngôn ngữ lập trình: Python (Ngôn ngữ chính để xử lý logic định hướng).
