@@ -33,7 +33,14 @@ Giao diện User:
   
 Giao diện Admin:
 - Sử dụng giao diện chuẩn Swagger UI.
-- Hiển thị danh sách các phương thức (GET, POST, PUT, DELETE) một cách khoa học để quản lý file dữ liệu.
+- Hệ thống cung cấp các công cụ quản trị dữ liệu độc lập, đảm bảo tính chính xác và kịp thời của thông tin:
+  Truy xuất dữ liệu : Xem danh sách tổng thể tất cả các nghề nghiệp và lộ trình hiện có trong hệ thống dưới dạng bảng hoặc danh sách chi tiết.
+  Tìm kiếm thông tin : Cho phép Admin lọc nhanh dữ liệu theo tên nghề nghiệp hoặc mã ngành để tiết kiệm thời gian khi quản lý kho dữ liệu lớn.
+  Chỉnh sửa thông tin : Thay đổi các thông số nhỏ như: tên nghề, mức lương, hoặc mô tả ngắn mà không làm thay đổi cấu trúc lộ trình.
+  Thêm mới dữ liệu : Tạo mới hoàn toàn một thẻ nghề nghiệp và lộ trình đi kèm.
+  Xóa dữ liệu : Loại bỏ dữ liệu không còn sử dụng.
+  Cập nhật dữ liệu : Xem danh sách tổng thể tất cả các nghề nghiệp và lộ trình hiện có trong hệ thống dưới dạng bảng hoặc danh sách chi tiết.
+  
 ## 5. Kế hoạch thực hiện
 
 ### Tuần 1: Phân tích và Thiết kế hệ thống (Từ 11/05 đến 15/05)
