@@ -1,5 +1,5 @@
 # KẾ HOẠCH THỰC HIỆN ĐỀ TÀI
-## XÂY DỰNG HỆ THỐNG ĐỊNH HƯỚNG NGHỀ NGHIỆP CHO SINH VIÊN NGÀNH IT
+## XÂY DỰNG HỆ THỐNG ĐỊNH HƯỚNG NGHỀ NGHIỆP CHO SINH VIÊN NGÀNH IT CỦA TECHROUTE
 
 ## 1. Thông tin chung
 - **Sinh viên thực hiện:** Tô Vương Đắc Khải
