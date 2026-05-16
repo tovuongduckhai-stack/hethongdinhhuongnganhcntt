@@ -70,7 +70,7 @@ Giao diện Admin:
 - Ngôn ngữ lập trình: Python (Ngôn ngữ chính để xử lý logic định hướng).
 - Backend Framework: FastAPI (Dùng để xây dựng các API truy xuất dữ liệu nghề nghiệp và lộ trình học tập).
 - Frontend: HTML5, CSS3, JavaScript (Dùng để thiết kế giao diện người dùng trực quan).
-- Database: JSON hoặc SQLite (Lưu trữ danh mục nghề nghiệp, kỹ năng và Roadmap).
+- Database: JSON hoặc SQL Server (Lưu trữ danh mục nghề nghiệp, kỹ năng và Roadmap).
 - Draw.io: Là công cụ thiết kế sơ đồ hệ thống trực tuyến mã nguồn mở, hỗ trợ đầy đủ các thư viện ký hiệu theo chuẩn UML
 ## 7. Công cụ hỗ trợ:
 - Visual Studio Code: Môi trường lập trình chính.
