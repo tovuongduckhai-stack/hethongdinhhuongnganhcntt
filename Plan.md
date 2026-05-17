@@ -18,6 +18,7 @@ Hệ thống cho phép người dùng:
 - Xem danh sách các thẻ nghề nghiệp (Card layout)..
 - Hiển thị chi tiết Roadmap học tập và mức lương tham khảo
 - Tìm kiếm nghề nghiệp trong ngành theo từ khóa nhanh.
+  
 Đối với Quản trị viên:
 - Thêm mới, sửa thông tin hoặc xóa các lộ trình cũ (CRUD qua API).
 - Cập nhật dữ liệu trực tiếp vào hệ thống thông qua giao diện Swagger UI.
